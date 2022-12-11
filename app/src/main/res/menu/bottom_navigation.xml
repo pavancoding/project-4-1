@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Todo"
+        android:icon="@drawable/todo"
+        android:id="@+id/todo"/>
+    <item android:title="Reminder"
+        android:icon="@drawable/alarm"
+        android:id="@+id/reminder"/>
+    <item android:title="Search"
+        android:icon="@drawable/search"
+        android:id="@+id/search"/>
+    <item android:title="Profile"
+        android:id="@+id/settings"
+        android:icon="@drawable/profile"/>
+</menu>

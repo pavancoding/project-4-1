@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Reminder And Todo</string>
+    <string name="ppt">
+        .ppt,.pot,.pps,.ppa,.ppam,.pptx,.pptm,.potx,.ppam,.ppsx,.ppsm,.sldx,.sldm,.sldm,.pa
+    </string>
+    <string name="word">
+       .docx,.docm,.doc,.dot,.wbk,.dotx,.dotm,.docb
+    </string>
+    <string name="excel">
+        .xlsx,.xlsm,.xltx,.xltm,.xlsb,.xla,.xlam,.xll,.xlw,.csv,.json
+    </string>
+    <string name="image">
+        .apng,.avif,.gif,.jpg,.jpeg,.jfif,.pjpeg,.pjp,.png,.svg,.webp,.bmp,.ico,.cur,.tif,.tiff
+    </string>
+    <string name="audio">
+        .3gp,.aa,.aac,.aax,.act,.aiff,.alac,.amr,.ape,.au,.awb,.dss,.dvf,.flac,.gsm,.iklax,.ivs,.m4a,.m4b,.m4p,.mmf,.mp3,.mpc,.msv,.nmf,.ogg,.oga,.mogg,.opus,.ra,.rm,.raw,.rf64,.sln,.tta,.voc,.vox,.wav,.wma,.wv,.webm,.8svx,.cda
+    </string>
+    <string name="video">
+        .webm,.mkv,.flv,.flv,.vob,.ogv,.ogg,.drc,.gif,.gifv,.mng,.avi,.MTS,.M2TS,.TS,.mov,.qt,.wmv,.yuv,.rm,.rmvb,.viv,.asf,.amv,.mp4,.m4p,.m4v,.mpg,.mp2,.mpeg,.mpe,.mpv,.mpg,.mpeg,.m2v,.m4v,.svi,.3gp,.3g2,.mxf,.roq,.nsv,.flv,.f4v,.f4p ,.f4a,.f4b
+    </string>
+</resources>

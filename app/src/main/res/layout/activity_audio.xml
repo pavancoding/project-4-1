@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".audio">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/close_bottomsheet"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/done"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitEnd"
+         app:srcCompat="@drawable/save_bottomsheet"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Select Ringtone"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:id="@+id/ringtones"
+            android:paddingRight="20dp">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:clickable="true"
+                android:focusable="true"
+                android:checked="true"
+                android:fontFamily="@font/open_sans_semibold"
+                android:foreground="?attr/selectableItemBackground"
+                android:layoutDirection="rtl"
+                android:text="Alarm"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+
+                android:text="Alert"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+
+                android:text="Android Alarm Tone"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Army Trumph"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Beep"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Before Sunrise Alarm"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Birds And Flute"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Birds And Piano"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Mixed Alarm"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Realme Alarm Tone"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Rise Tone"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Rise Up"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Scary"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Smooth Piano"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Wake up"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:buttonTint="@color/radiobutton"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layoutDirection="rtl"
+                android:text="Water Flow"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+        </RadioGroup>
+    </ScrollView>
+</LinearLayout>

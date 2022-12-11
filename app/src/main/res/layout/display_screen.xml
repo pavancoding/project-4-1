@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Display_screen">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="70dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/picture4" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Never Forget Task\nJust leave To Us\nWe Remind You..."
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slideView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#989696"
+        app:sliderIndicatorUnselectedColor="#367ef2"
+        app:sliderScrollTimeInSec="5"
+        app:sliderStartAutoCycle="true"
+        tools:layout_editor_absoluteY="176dp">
+
+    </com.smarteist.autoimageslider.SliderView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#367EF2"
+        android:fontFamily="@font/open_sans"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/open_sans"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+</LinearLayout>
